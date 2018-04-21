@@ -6,3 +6,7 @@ react+redux+router+antd
 
 ## 功能
 - [x] 左边菜单 -- 完成
+- [x] 图表 -- 完成
+- [x] 表格 -- 完成
+- [x] 图表接入echart -- 完成
+- [x] 自写toast插件 -- 完成
