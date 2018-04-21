@@ -1,21 +1,5 @@
 import React from 'react'
-
 import { Modal,Table, Button } from 'antd';
-
-//   const  rowSelection = {
-// 	onChange: (selectedRowKeys, selectedRows) => {
-// 		console.log(`selectedRowKeys: ${selectedRowKeys}`, 'selectedRows: ', selectedRows);
-// 	  },
-// 	  onSelect: (record, selected, selectedRows) => {
-// 		console.log(record, selected, selectedRows);
-// 	  },
-// 	  onSelectAll: (selected, selectedRows, changeRows) => {
-// 		console.log(selected, selectedRows, changeRows);
-// 	  },
-// 	  getCheckboxProps: record => ({
-// 		disabled: record.name === 'Disabled User',    // Column configuration not to be checked
-// 	  }),
-//   };
 class table extends React.Component{
 	constructor(props) {
 		super(props);
@@ -110,7 +94,7 @@ class table extends React.Component{
 			<span style={{ marginLeft: 8 }}>{hasSelected ? `Selected ${selectedRowKeys.length} items` : ''}</span>
 			</div>
 			<Modal title="询问" visible={this.state.visible}
-					onOk={this.handleOk} onCancel={this.handleCancel}
+					okText="确认" cancelText="取消" onOk={this.handleOk} onCancel={this.handleCancel}
 					>
 				<p>您确定要删除该一行吗</p>
 				</Modal>

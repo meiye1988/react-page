@@ -47,3 +47,9 @@
     bottom: 0;
     overflow-y: auto;
 }
+.fontbold{
+  font-weight: bold;
+}
+.none{
+  display: none;
+}
