@@ -66,7 +66,7 @@ class table extends React.Component{
 	  handleOk = (e) => {
 		console.log(this.delIndex);
 		let list = this.state.data;
-		list.splice(list.findIndex(item=>item.key==this.delIndex),1);
+		list.splice(list.findIndex(item=>item.key===this.delIndex),1);
 		this.setState({
 			data:list,
 		  visible: false,

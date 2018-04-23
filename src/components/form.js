@@ -1,13 +1,10 @@
 import React from 'react'
-import { Form, Input, Tooltip, Icon, Cascader, Select, Row, Col, Checkbox, Button,DatePicker, TimePicker,Radio } from 'antd';
+import { Form, Input, Icon, Select, Row, Col, Button,DatePicker,Radio } from 'antd';
 //英文改为中文
-import enUS from 'antd/lib/locale-provider/en_US';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
 moment.locale('zh-cn')
 const FormItem = Form.Item;
-const MonthPicker = DatePicker.MonthPicker;
-const RangePicker = DatePicker.RangePicker;
 const RadioGroup = Radio.Group;
 const Option = Select.Option;
 
@@ -29,7 +26,7 @@ class form extends React.Component {
 				用户名：${values.userName}<br>
 				密码：${values.passWord}<br>
 				生日：${values.birthday.format('YYYY-MM-DD')}<br>
-				性别：${values.sex==1?'男':'女'}<br>
+				性别：${values.sex===1?'男':'女'}<br>
 				家：${values.home}
 		  `
 		}

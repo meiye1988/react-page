@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {Menu,Icon} from 'antd';
 import { Link } from 'react-router-dom';
 const SubMenu = Menu.SubMenu;
@@ -12,14 +11,15 @@ const menuListJson = [
 		{"id":2,"name":"表单","link":"/form"},
 		{"id":3,"name":"表格","link":"/table"},
 		{"id":4,"name":"图表","link":"/charts"},
-		{"id":6,"name":"自写toast插件","link":"/toastShow"},
+		{"id":6,"name":"toast插件","link":"/toastShow"},
 
 	]},
 	{"id":5,
 	"name":"redux",
 	"icon":"appstore",
 	"children":[
-		{"id":5,"name":"redux","link":"/ui"},
+		{"id":7,"name":"todo示例","link":"/todos"},
+		{"id":8,"name":"待办事项","link":"/notepad"},
 
 	]},
 ];
