@@ -13,8 +13,8 @@ react+redux+router+antd
 - [x] redux-TODO示例 -- 完成
 - [x] redux-待办事项 -- 完成
 
-##demo地址
+## demo地址
 [http://120.78.84.11/react/react-page/index.html](http://120.78.84.11/react/react-page/index.html)
 
-##备注
+## 备注
 若项目做的不好请指点谢谢
