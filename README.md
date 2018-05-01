@@ -17,4 +17,4 @@ react+redux+router+antd
 [http://120.78.84.11/react/react-page/index.html](http://120.78.84.11/react/react-page/index.html)
 
 ## 备注
-若项目做的不好请指点谢谢
+若项目有什么问题或有什么地方不足请指点谢谢
